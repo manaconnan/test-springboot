@@ -1,0 +1,7 @@
+
+girl:
+  name: Lucy
+  age: 18
+  cupSize: E
+server:
+  port: 8081

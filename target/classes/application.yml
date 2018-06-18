@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: debug
+  datasource:
+    url: jdbc:mysql:///sampledb
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+management:
+  health:
+    db:
+      enabled: true
+    defaults:
+      enabled: true
+    diskspace:
+      enabled: true
+      path: /Users/mazexiang/Workspace
+      threshold: 0
+  security:
+    enabled: false

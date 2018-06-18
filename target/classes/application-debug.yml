@@ -1,0 +1,8 @@
+
+girl:
+  name: Lily
+  age: 25
+  cupSize: B
+
+server:
+  port: 8080
